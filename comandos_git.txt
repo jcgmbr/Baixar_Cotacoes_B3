@@ -1,0 +1,26 @@
+git init
+git clone URL_DO_REPO # Clona um repositório GitHub
+
+git branch -M main #Renomeia o branch para o padrão main
+git remote add origin https://github.com/jcgmbr/Baixar_Cotacoes_B3.git #Adiciona o diretório remoto
+git push -u origin main #Cria um atalho para origin main. Depois só usar git push
+
+git status # Verificar mudanças no diretório
+
+git add nome_do_diretorio/ ou git add nome_do_arquivo.extensao
+
+git commit -m "mensagem"
+
+git push origin main #envia alterações origin(origem) main(destino)
+
+
+git pull origin main #recebe alterações no repositório Github
+
+
+====================================
+git rm LEIAME.txt #apagar arquivo no GitHub
+
+git commit -m "apaga leiame.txt"
+
+git push origin main
+
